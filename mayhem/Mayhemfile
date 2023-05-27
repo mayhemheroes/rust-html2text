@@ -1,0 +1,6 @@
+project: rust-html2text
+target: html2text-fuzz
+
+cmds:
+    - cmd: ./html2text-fuzz
+      libfuzzer: true
